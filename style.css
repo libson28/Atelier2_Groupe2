@@ -1,0 +1,484 @@
+:root {
+    --coleurfondImage: rgb(249, 246, 246);
+    --coleurSection: #EEEEEE;
+    --couleurheader: #f46a58;
+    --gray: #E1E1E1;
+    --white: white;
+    --black: black;
+    --grey: #e7e7e7;
+}
+
+/* Stylisation baniere */
+
+.couvertureMain{
+    margin-top: -14px; 
+    /* margin: 0 auto; */
+}
+
+.couvertureMain img {
+    width: 100%;
+    height: 400px;
+    margin-left: -2px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+
+
+/* Stylisation de la section Top Model  */
+.topModel{
+    background-color: var(--coleurFond);
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.topModelTitre {
+    display: flex;   
+    /* margin-left: 40px; */
+}
+
+.topModelTitre a {
+    margin-top: 25px ;
+    margin-left: 20px;
+    font-size: 10px;
+    text-decoration:underline black;
+    color: black;
+}
+
+.sectionModels {
+    display: grid;
+    grid-template-columns:  24% 24% 24% 24% ;
+    gap: 13.5px
+}
+
+.sectionModels .sousSection{
+    background-color: var(--coleurFond);
+    
+}
+.imageSousSection{
+    height: 75%;
+    /* background-color: rgb(48, 44, 44); */
+    background-color:  rgb(65,65,65);
+    /* background-color: var(--coleurSection); */
+    
+    
+}
+
+.imageSousSection button{
+    margin-top: 75%;
+    margin-left: 5%;
+    border: none;
+    padding: 5px 18px;
+    background-color: var(--couleurheader);
+    border-radius: 0px;
+    /* background-color: black; */
+    color: white;
+    margin-bottom: 2%;
+}
+
+.imageMeuble{
+    background-image: url(images/topModel/meubleSalon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.imageAccessoire{
+    background-image: url(images/topModel/bijouTissu.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    
+}
+.imageMode{
+    background-image: url(images/topModel/sacCotons.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.imageStyliste{
+    background-image: url(images/topModel/tissuBogolan.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.textSousSection {
+    margin-left: 5%;
+}
+
+.textSousSection p,span {
+    margin-top: -15px;
+} 
+
+.textSousSection span{
+    margin-left: 5%;
+    margin-right: 2%;
+    font-size: 14px;
+
+}
+
+.textSousSection .reductionPrix{
+    text-decoration: line-through #E0D5CE;
+    color: #E0D5CE;
+}
+
+.textSousSection .prix{
+    font-weight: 900;
+}
+
+.textSousSection .pourcentage{
+    border: 1px solid var(--couleurheader);
+    padding: 3px;
+    
+}
+
+/* Fin Stylisation de la section Top Model  */
+
+
+/* Stylisation de la partie réduction */
+.sectionReduction{
+    background-color: #f9b2a8;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;  
+    justify-content: right;
+    height: 16.2vh;
+    width: 1000px;
+}
+.sectionReduction img{
+    float: left;
+    margin-left: 15px;
+    width: 160px;
+    height: 110px;
+    margin: 4px  0px 2px 20px ;
+    background-color: var(--coleurFond);
+    border-radius: 10px;
+}
+
+
+
+.sectionReduction .textReduction{
+    margin-top: -10px;
+    margin-right: 20px;
+    text-align: right;
+    margin-left: 20px;
+    
+}
+
+.sectionReduction .textReduction span{
+    font-size: 20px;
+}
+
+.sectionReduction .textReduction .pourcentage{
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--couleurheader);
+}
+
+.sectionReduction .textReduction .textArticle{
+    margin-top: -25px;
+    font-size: 25px;
+}
+ .sectionReduction button{
+    height: 45px;
+    font-size: 10px;
+    font-weight: 700;
+    margin:  35px;
+    background-color: var(--coleurFond) ;
+    color: var(--couleurheader);
+    border: 1px solid var(--couleurheader);
+    border-radius: 10px;
+
+}
+/* Fin Stylisation de la partie réduction */
+
+
+
+/* Stylisation catégorie */
+.start{
+    margin: 0 auto;
+    /* margin-left: 50px; */
+    height: 220px;
+    width: 1000px;
+    align-items: center;
+}
+.start .title{
+    padding-left: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.start .title h3{
+    margin-right: 60px;
+}
+.start .title a{
+    color: black;
+    padding-top:20px ;
+}
+.start .container{
+    display: flex;
+    width:500px;
+    height: 100px;
+}
+.start .categorie{
+    margin-left: 100px;
+    /* border: 1px solid black; */
+    width:650px; 
+    height:150px;
+    border-radius: 20px;
+    background-color:rgb(249, 246, 246);
+    box-shadow: 0.5px 0.5px;
+    
+}
+
+.start .categorie:nth-child(1){
+    margin-left: -240px;
+}
+
+
+
+.start .categorie img{
+    width:80px;
+    height:80px;
+    border-radius: 60px;
+    padding: 10px 10px 10px 15px ;
+    margin-left: 30px; 
+ 
+}
+.start .categorie p{
+    width:150px;
+    padding:10px;
+    font-size: 12px;
+    color: #f46a58;
+    text-align: center;
+}
+
+/* Fin stylisation catégorie */
+
+/* Stlysation meilleure vente  */
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.firstSection{
+    display: flex;
+    padding-left: 180px;
+    margin-top: 40px;
+    /* margin-left: 0px;  */
+    /* box-sizing: border-box; */
+    background-color: var(--white);
+}
+
+.seeMore {
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.seeMore p a {
+    font-size: 10px;
+    color: var(--black);
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 1003px;    
+    margin: 50px auto;
+    height: auto;
+
+}
+
+
+
+button {
+    background-color: var(--couleurheader);
+    color: var(--white);
+    padding: 5px 15px;
+    margin-top: 150px;
+    margin-left: 6px;
+    border: 1px solid var(--couleurheader);
+}
+.description {
+    padding-left: 8px;
+    color: var(--black);
+}
+
+.description h5 {
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.description p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.flexibilityPrice {
+    display: flex;
+    margin-top: -10px;
+}
+
+.priceOff,
+.priceOn,
+.promotion {
+    margin-left: 10%;
+    color: var(--black);
+}
+
+.priceOff p {
+    text-decoration: line-through;
+}
+
+.priceOn p {
+    font-weight: bold;
+}
+
+.promotion p {
+    border: 1px solid var(--couleurheader);
+}
+
+.element {
+    width: 280px;
+    height: 280px;
+    margin: -50px 2px;
+    color: var(--white);
+    background-color: var(--white);
+    /* border: 1px solid var(--black); */
+}
+
+.element1{
+    background-image: url("./images/meilleureVente/meuble1.jpg");
+    background-size: 295px;
+    background-repeat: no-repeat;
+}
+.element2 {
+    background-image: url("./images/meilleureVente/watch.jpg");
+    background-size: 310px;
+    background-repeat: no-repeat;
+}
+.element3 {
+    background-image: url("./images/meilleureVente/sacs_a_main.jpg");
+    background-size: 290px;
+    background-repeat: no-repeat;
+}
+.element4 {
+    background-image: url("./images/meilleureVente/tissu.jpg");
+    background-size: 295px;
+    background-repeat: no-repeat;
+}
+
+.element {
+    margin-bottom: 20px;
+}
+
+/* Fin stylisation section meilleure vente  */
+
+
+/* Stylisation Profil */
+.profileClient{
+    margin: 0 auto;
+    /* padding-left: 60px; */
+    width: 1000px;
+}
+
+.titreProfil{
+    display: flex;
+    text-align: center;
+    /* margin-left: 150px; */
+}
+
+.titreProfil a{
+    text-decoration: underline black;
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-around ;
+    /* margin: 15px 0 100px 250px; */
+    /* margin-left: 240px; */
+    /* justify-content: center; */
+
+}
+
+.profile-container .profile {
+    width: 190px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.profile-container .profile:nth-child(1){
+    margin-left: -1px;
+}
+
+.profile-container .profile:nth-child(4){
+    margin-right: -2px;
+}
+
+.profile-container .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: -1px;
+}
+
+.profile-container .nomDeProfil {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profile-container .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 10px;
+}
+
+.profile-container .social-icon {
+    font-size: 14px;
+    margin: 0 5px;
+    color: rgb(0, 0, 0);
+    width: 16px;
+    
+}
+.profile-container .usernames {
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 120px;
+    left: 35px;
+    margin-top: 15px;
+    top: -3%;
+
+}
+
+.profile-container div .usernames {
+    position: relative;
+    align-items: center;
+}
+
+.profile-container button {
+    background-color: #f46a58;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    top: 800px;
+    margin-top: 15px;
+    border: none;
+}
+
+.profile-container i{
+    font-weight:bold;
+    font-size: 10px;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+/* Fin Stylisation Profil */
